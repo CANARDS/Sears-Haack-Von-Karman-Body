@@ -9,6 +9,7 @@ Code Inputs:
 2. Maximum/Base Radius of the body (R). Recommended is 1/10th for most cases (proven through research).
 3. Number of discrete points to define the curve (n). Recommended is 500 at least.
 4. Haack Series constant (C). Different values of C givens different shapes. C=0 for the famed Von Karman Ogive, C= 1/3 for maximized volume low drag body, C= 2/3 for tangent shape body.
+
 Three types of bodies can be generated with this code: One is the simple Sears-Haack body with maximum diameter at the center and pointed tail, second is the ogive shaped advanced Haack Series bodies, third is the dual/reflected ogive with pointed tail and maximum diameter at the center. The mirrored sections in the third case may not be perfectly tangent to each other except for C=2/3.
 
 Code Outputs:
